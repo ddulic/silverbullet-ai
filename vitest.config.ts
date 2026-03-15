@@ -4,5 +4,14 @@ export default defineConfig({
   test: {
     include: ["src/**/*.test.ts"],
     exclude: ["e2e-tests/**", "node_modules/**"],
+    coverage: {
+      provider: "v8",
+      reporter: ["text", "lcov"],
+      include: ["src/**/*.ts"],
+      exclude: [
+        "src/**/*.test.ts",
+        "src/mocks/**",
+      ],
+    },
   },
 });
