@@ -12,7 +12,7 @@
   "dependencies": {
     "@silverbulletmd/silverbullet": ">=2.5.3",
     "sse.js": "^2.2.0",
-    "yaml": "^2.0.0"
+    "yaml": "^2.8.3"
   },
   "devDependencies": {
     "@lezer/markdown": "^1.0.0",
